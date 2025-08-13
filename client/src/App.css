@@ -1,0 +1,55 @@
+* {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(37, 37, 37);
+}
+
+h1 {
+  color: bisque;
+}
+
+/* --- Footer Styles --- */
+.bottomBanner {
+  display: flex;
+  justify-content: space-between; /* pushes left + right apart */
+  align-items: center;
+  flex: 1;
+  padding: 15px 30px;
+  color: bisque;
+}
+
+.linkImages {
+  filter: invert(100%);
+}
+
+
+#creditContacts {
+  font-size: 1rem;
+  margin: 0;
+}
+
+#footerLink {
+  color: #61dafb; /* light blue link color */
+  text-decoration: none;
+}
+
+#footerLink:hover {
+  text-decoration: underline;
+}
+
+.rightSideLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.linkImages img {
+  transition: transform 0.2s ease;
+}
+
+.linkImages img:hover {
+  transform: scale(1.1);
+}
+
